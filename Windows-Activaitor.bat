@@ -20,7 +20,7 @@ cscript //nologo c:\windows\system32\slmgr.vbs /ipk DPH2V-TTNVB-4X9Q3-TJR4H-KHJW
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk WNMTR-4C88C-JK8YV-HQ7T2-76DF9 >nul
 cscript //nologo c:\windows\system32\slmgr.vbs /ipk 2F77B-TNFGY-69QQF-B8YKP-D69TJ >nul
 echo ************************************
-set KMS_Sev=kms.searchforjohn.com
+set KMS_Sev=kms2.searchforjohn.com
 cscript //nologo c:\windows\system32\slmgr.vbs /skms %KMS_Sev% >nul
 cscript //nologo c:\windows\system32\slmgr.vbs /ato | find /i "successfully"
 :start
